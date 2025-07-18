@@ -1,0 +1,92 @@
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #fdfdfd;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Daily forecast card */
+.daily-item {
+  background: linear-gradient(135deg, #2d2d2d, #3b3b3b);
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  height: 60px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.daily-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.icon-small {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.1));
+}
+
+.daily-item .day {
+  color: #fff;
+  flex: 1;
+  font-weight: 600;
+  margin-left: 18px;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  flex: 1;
+  margin-right: 15px;
+  text-align: right;
+  color: #aaa;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.min-max {
+  color: #fff;
+  font-weight: 600;
+  min-width: 80px;
+  text-align: right;
+}
+
+
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+  padding: 16px 24px;
+  border-top: 1px solid #444;
+  background-color: #2a2a2a;
+  border-radius: 0 0 14px 14px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eaeaea;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.daily-details-grid-item label:first-child {
+  color: #bbb;
+  font-weight: 500;
+}
+
+.daily-details-grid-item label:last-child {
+  color: #fff;
+  font-weight: 600;
+}
