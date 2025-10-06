@@ -1,3 +1,3 @@
-To run this project 
-1st go into the directory 
-2nd npm run start
+Give it a Try ,Deployment Link below :
+
+https://weatherapplicationritesh.netlify.app/
